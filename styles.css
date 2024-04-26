@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  box-sizing: content-box;
+  vertical-align: middle;
+  background-color: rgba(243, 245, 252, 1);
+  font-family: Inter, sans-serif;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  gap: 80px;
+}
+
+.logo {
+  position: absolute;
+  padding: 40px 0px 0px 0px;
+}
+
+.encription {
+  margin-top: 168px;
+  padding-left: 80px;
+  width: 680px;
+}
+
+.input-user {
+  background-color: rgba(243, 245, 252, 1);
+  border-style: none;
+  color: rgba(10, 56, 113, 1);
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  height: 665px;
+  width: 577px;
+}
+
+::placeholder {
+  color: rgba(10, 56, 113, 1);
+}
+.input-user:focus {
+  outline: none;
+}
+
+.output-encription {
+  background-color: rgba(99, 99, 99, 0);
+  border-style: none;
+  color: rgba(73, 80, 87, 1);
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  padding: 32px 0 0 32px;
+  width: 336px;
+  height: 150px;
+  visibility: hidden;
+}
+.output-encription:focus {
+  outline: none;
+}
+
+
+.disclaimer-bar {
+  display: flex;
+  justify-content: left;
+  gap: 12px;
+  padding: 16px 0 16px 0;
+}
+
+.disclaimer {
+  padding-left: 8px;
+  color: rgba(73, 80, 87, 1);
+  font-size: 12px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.btn {
+  align-content: space-between;
+  border: 1px solid rgb(10, 56, 113);
+  border-radius: 25px;
+  background-color: rgba(216, 223, 232, 1);
+  color: rgba(10, 56, 113, 1);
+  font-size: 16px;
+  font-weight: 400;
+  height: 67px;
+  width: 328px;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: rgba(10, 56, 113, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.translation {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 32px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 40px;
+  justify-content: center;
+  width: 400px;
+  height: 944px;
+}
+
+.hidden-info {
+  visibility: visible;
+}
+
+.girl-image {
+  padding-left: 32px;
+}
+
+.no-input {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 30px 0 22px 32px;
+  text-align: center;
+  width: 336px;
+}
+
+.no-input-paragraph {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 32px;
+  padding-bottom: 138px;
+  width: 336px;
+}
+
+.btn-copy {
+  margin: 0 0 32px 32px;
+  width: 336px;
+  visibility: hidden;
+}
+
+.message {
+  color: rgba(73, 80, 87, 1);
+  font-size: 24px;
+  width: 336px;
+  height: 813px;
+  padding: 32px 0 0 32px;
+}

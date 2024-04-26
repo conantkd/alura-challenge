@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <title>Alura Challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="logo"
+        src="/images/Logo.png"
+        alt="alura-logo"
+        width="120"
+        height="48" />
+    </header>
+    <main>
+      <section class="encription">
+        <textarea
+          cols="30"
+          rows="10"
+          class="input-user"
+          placeholder="Ingrese el texto aqui"></textarea>
+        <div class="disclaimer-bar">
+          <img
+            class="exclamation"
+            src="/images/exclamation.png"
+            alt="alura-logo"
+            width="16"
+            height="16" />
+          <h5 class="disclaimer">Solo letras minúsculas y sin acentos</h5>
+        </div>
+        <div class="action-buttons">
+          <button class="btn btn-encript" onclick="btnEnctriptar()">
+            Encriptar
+          </button>
+          <button class="btn btn-dencript" onclick="btnDesenctriptar()">Desencriptar</button>
+        </div>
+      </section>
+      <section class="translation">
+        <textarea class="output-encription hidden" rows="10" cols="20">
+
+        </textarea>
+        <div class="hidden-info">
+          
+          <img
+            class="girl-image"
+            src="/images/girl.png"
+            alt="girl studying"
+            width="336"
+            height="304" />
+
+          <h3 class="no-input">Ningún mensaje fue encontrado</h3>
+          <p class="no-input-paragraph">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </p>
+        </div>
+        <button class="btn btn-copy hidden" onclick="btnCopyF()">Copiar</button>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
